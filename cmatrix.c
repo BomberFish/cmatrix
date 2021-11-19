@@ -171,7 +171,7 @@ void usage(void) {
     printf(" To get the program to look most like the movie, use -lba\n");
     printf(" To get the program to look most like the Win/Mac screensaver, use -ol\n");
 }
- 
+
 void version(void) {
     printf("CMatrix version %s (compiled at %s, on %s)\n",
         VERSION, __TIME__, __DATE__);
