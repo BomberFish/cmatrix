@@ -8,9 +8,9 @@ Version: %{ver}
 Release: %{rel}
 Group: Amusements/Graphics
 Copyright: GPL
-Packager: abishekvashok@gmail.com
-URL: https://github.com/abishekvashok/cmatrix
-Source0: https://github.com/abishekvashok/cmatrix/archive/%{ver}.tar.gz
+Packager: dalek77isindahouse@gmail.com
+URL: https://github.com/BomberFish/cmatrix
+Source0: https://github.com/BomberFish/cmatrix/archive/%{ver}.tar.gz
 Provides: none
 Requires: ncurses
 Conflicts: none

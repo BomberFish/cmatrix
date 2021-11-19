@@ -166,13 +166,17 @@ void usage(void) {
     printf(" -m: lambda mode\n");
     printf(" -k: Characters change while scrolling. (Works without -o opt.)\n");
     printf(" -t [tty]: Set tty to use\n");
+    printf("\n");
+    printf("Pro Tips:\n");
+    printf(" To get the program to look most like the movie, use -lba\n");
+    printf(" To get the program to look most like the Win/Mac screensaver, use -ol\n");
 }
 
 void version(void) {
-    printf(" CMatrix version %s (compiled %s, %s)\n",
+    printf("CMatrix version %s (compiled at %s, on %s)\n",
         VERSION, __TIME__, __DATE__);
-    printf("Email: abishekvashok@gmail.com\n");
-    printf("Web: https://github.com/abishekvashok/cmatrix\n");
+    printf("Email: dalek77isindahouse@gmail.com\n");
+    printf("Web: https://github.com/BomberFish/cmatrix\n");
 }
 
 

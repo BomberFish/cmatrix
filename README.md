@@ -9,8 +9,6 @@ CMatrix by default operates in **eye candy** mode.  It must be aborted with
 control-c (Ctrl+C) or by pressing q.  If you wish for more of a screen saver
 effect, you must specify `-s` on the command line. For usage info, use `cmatrix -h`.
 
-[![Build Status](https://travis-ci.org/abishekvashok/cmatrix.svg?branch=master)](https://travis-ci.org/abishekvashok/cmatrix)
-
 ### Dependencies
 You'll probably need a decent ncurses library to get this to work. On Windows, using mingw-w64-ncurses is recommended (PDCurses will also work, but it does not support colors or bold text).
 
